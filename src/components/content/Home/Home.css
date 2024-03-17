@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home-heading {
+    font-size: 48px;
+    color: #e76262;
+    margin-bottom: 20px;
+}
+
+.home-container p {
+    font-size: 28px;
+    color: #666;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,39 @@
+.textarea-container {
+    width: 300px;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 150px;
+}
+
+.textarea-field {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    min-height: 100px;
+    transition: height 0.3s;
+}
+
+.textarea-field:focus {
+    border-color: #007bff;
+}
+
+.textarea-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.textarea-button:hover {
+    background-color: #0056b3;
+}
