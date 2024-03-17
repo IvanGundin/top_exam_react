@@ -58,7 +58,7 @@ function Login() {
                     <input type="checkbox" autoComplete='off' id="rememberMe" name="rememberMe" checked={rememberMe} onChange={handleRememberMeChange} />
                 </div>
                 <button type="submit">Login</button>
-                <Link to="/newLogin" onClick={() => setNewLoggedIn(true)} className='new-login-form'>Новый профиль</Link>
+                <Link to="/top_exam_react/newLogin" onClick={() => setNewLoggedIn(true)} className='new-login-form'>Новый профиль</Link>
             </form>
         </>
     );

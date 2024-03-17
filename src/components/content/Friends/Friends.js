@@ -7,7 +7,7 @@ function UserProfileList() {
     const { state, dispatch } = useContext(AppContext);
     return (
         <div className="user-profile-list">
-            <Link to="./add_frend">Добавить пользователя</Link>
+            <Link to="/top_exam_react/add_frend">Добавить пользователя</Link>
             {state.profiles ? state.profiles.map((user, i) => (
                 <div className="user-profile-card" key={i}>
                     <div>
@@ -20,7 +20,7 @@ function UserProfileList() {
                         <div style={{ fontWeight: 'bold' }}>Возраст: {user.age}</div>
                     </div>
                     <div className="user-profile-click">
-                        <Link to='./messages'>сообщение</Link>
+                        <Link to="/top_exam_react/messages">сообщение</Link>
                         <button onClick={() => dispatch({ type: 'REMOVE_PROFILE', payload: user.id })}>Удалить</button>
                     </div>
                 </div>

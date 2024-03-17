@@ -12,13 +12,13 @@ const Content = () => {
     return (
         <div className="content">
             <Routes>
-                <Route exact path="./" element={<Home />} />
-                <Route path="./newLogin" element={<NewLogin />} />
-                <Route path="./profile" element={<Profile />} />
-                <Route path="./friends" element={<Friends />} />
-                <Route path="./add_frend" element={<AddFriends />} />
-                <Route path="./messages" element={<Messages />} />
-                <Route path="./news" element={<News />} />
+                <Route exact path="/top_exam_react/" element={<Home />} />
+                <Route path="/top_exam_react/newLogin" element={<NewLogin />} />
+                <Route path="/top_exam_react/profile" element={<Profile />} />
+                <Route path="/top_exam_react/friends" element={<Friends />} />
+                <Route path="/top_exam_react/add_frend" element={<AddFriends />} />
+                <Route path="/top_exam_react/messages" element={<Messages />} />
+                <Route path="/top_exam_react/news" element={<News />} />
             </Routes>
         </div>)
 }

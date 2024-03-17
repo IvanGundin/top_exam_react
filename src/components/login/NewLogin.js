@@ -20,7 +20,7 @@ function NewLogin() {
         e.target.reset();
 
         setNewLoggedIn(false)
-        navigate("./");
+        navigate("/top_exam_react/");
     }
 
     return (

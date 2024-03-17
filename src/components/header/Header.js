@@ -8,10 +8,10 @@ const Header = () => {
 
     return (
         <header className="header">
-            <Link to="./">Главная</Link>
+            <Link to="/top_exam_react/">Главная</Link>
             <CurrentDateTime />
             <div>
-                <Link to="./profile">Профиль</Link>
+                <Link to="/top_exam_react/profile">Профиль</Link>
                 <button onClick={handleLogout}>выйти</button>
             </div>
         </header>
