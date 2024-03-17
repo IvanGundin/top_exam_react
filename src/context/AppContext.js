@@ -23,7 +23,7 @@ function friendsReducer(state, action) {
         case 'ADD_MESSAGE':
             return {
                 ...state,
-                messages: [...state.messages, action.payload]
+                messages: [...state.messages, 'Сообщение для ' + action.payload[0] + ': "' + action.payload[1] + '", отправлено в ' + action.payload[2]]
             };
         default:
             return state;

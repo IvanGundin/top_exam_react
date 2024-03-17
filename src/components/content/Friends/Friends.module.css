@@ -1,0 +1,116 @@
+.user_profile_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.user_profile_card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+.user_profile_card img {
+    max-width: 110px;
+    border-radius: 4px;
+}
+
+.user_profile_name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 1px 5px 12px rgba(190, 115, 255, 0.631)
+}
+
+.user_profile_list a {
+    margin-bottom: 18px;
+}
+
+.user_profile_card button,
+.user_profile_list a {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user_profile_card button:hover {
+    background-color: #0056b3;
+}
+
+.user_profile_list a:hover {
+    background-color: #0056b3;
+}
+
+.user_profile_click {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user_profile_info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 290px;
+    gap: 10px;
+}
+
+@media (max-width: 940px) {
+    .user_profile_card {
+        background-color: rgb(255, 229, 229);
+        max-width: 500px;
+    }
+
+    .user_profile_info {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 750px) {
+    .user_profile_card {
+        background-color: rgb(255, 214, 214);
+        max-width: 330px;
+    }
+
+    .user_profile_info {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .user_profile_card {
+        max-width: 100px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .user_profile_info {
+        display: none;
+    }
+
+    .user_profile_card img {
+        display: none;
+    }
+
+    .user_profile_list a {
+        margin-bottom: 2px;
+    }
+
+    .user_profile_click {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

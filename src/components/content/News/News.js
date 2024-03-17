@@ -20,18 +20,12 @@ function News() {
                 ))}
             </ul>
             <hr />
-            <h3>следующие сообщения были отправлены друзьям:</h3>
-            {state.messages.length === 0 ? (
-                <p className="no-messages">Не было сообщений...</p>
-            ) : (
-                // 
+            <h3>История сообщений:</h3>
+            {state.messages.length === 0 ? (<p className="no-messages">Не было сообщений...</p>) : (
                 <ul>
-                    {state.messages.map((message, index) => (
-                        <li className="news-item-message" key={index}>{message}</li>
-                    ))}
+                    {state.messages.map((message, index) => (<li className="news-item-message" key={index}>{message}</li>))}
                 </ul>
             )}
-
         </div>
     );
 }

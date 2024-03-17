@@ -28,7 +28,7 @@ const AddFriends = () => {
                 <input type="text" autoComplete='off' name="avatar" placeholder="ссылка на аватар" defaultValue={'https://static.tildacdn.com/tild6635-6238-4266-a233-303037393136/___2.jpeg'} />
                 <input type="text" autoComplete='off' name="age" placeholder="возраст" defaultValue={'29'} />
                 <input type="text" autoComplete='off' name="location" placeholder="место пребывания" defaultValue={'Москва'} />
-                <button type="submit">Add User</button>
+                <button type="submit">Добавь друга</button>
             </form>
             <h2>Список моих друзей</h2>
             <ul>

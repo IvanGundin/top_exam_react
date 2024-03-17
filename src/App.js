@@ -6,8 +6,8 @@ import Login from './components/login/Login';
 
 const App = () => {
   const { loggedIn, newLoggedIn } = useContext(AppContext);
-  return <div>
+  return <>
     {loggedIn ? <Contents /> : newLoggedIn ? <NewLogin /> : <Login />}
-  </div>;
+  </>;
 };
 export default App;

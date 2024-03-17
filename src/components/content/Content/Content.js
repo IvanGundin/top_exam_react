@@ -17,7 +17,7 @@ const Content = () => {
                 <Route path="/top_exam_react/profile" element={<Profile />} />
                 <Route path="/top_exam_react/friends" element={<Friends />} />
                 <Route path="/top_exam_react/add_frend" element={<AddFriends />} />
-                <Route path="/top_exam_react/messages" element={<Messages />} />
+                <Route path="/top_exam_react/messages/:firstname" element={<Messages />} />
                 <Route path="/top_exam_react/news" element={<News />} />
             </Routes>
         </div>)

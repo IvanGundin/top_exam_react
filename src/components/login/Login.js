@@ -54,7 +54,7 @@ function Login() {
                     <input type="password" autoComplete='off' id="password" name="password" value={password} onChange={(event) => setPassword(event.target.value)} />
                 </div>
                 <div className='login-form__checkbox'>
-                    <label htmlFor="rememberMe">сохранить в localStorage</label>
+                    <label htmlFor="rememberMe">сохранить пароль (localStorage)</label>
                     <input type="checkbox" autoComplete='off' id="rememberMe" name="rememberMe" checked={rememberMe} onChange={handleRememberMeChange} />
                 </div>
                 <button type="submit">Login</button>
